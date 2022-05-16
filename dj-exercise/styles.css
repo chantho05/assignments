@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(197, 197, 223);
+}
+
+#square {
+    width: 200px;
+    height: 200px;
+    border: solid;
+    overflow: scroll;
+}
+
+p {
+    color: white;
+}
