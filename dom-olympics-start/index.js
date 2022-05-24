@@ -25,17 +25,19 @@ document.getElementById("clear-button").addEventListener("click", function(){
     console.log(messages)
 })
 
-//---------------------------------
+//Silver---------------in progress------------------
 
 document.getElementById("theme-drop-down").addEventListener("change", function(){
     this.classList.toggle("theme-two")
+    for (var i = 0; i < messages.length; i++){
     if (this.addEventListener){
-        document.body.style.backgroundColor = "red"
+        messages[i].style.backgroundColor = "red"
     }
+}
 
 
     console.log("toggled")
 })
 
 
-
+//Gold-------------------------------------

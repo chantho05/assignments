@@ -30,9 +30,9 @@ var person = {
 //tab (indenting)
 if(2 === 2){
     console.log("They are equal")
-    if(3 === 3 {
+    if(3 === 3) {
         console.log("These are also equal")
-    })
+    }
 }
 
 //HTML tags

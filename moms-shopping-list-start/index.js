@@ -11,10 +11,11 @@ myForm.addEventListener("submit",(event) => {
 
 
     const listItem = document.createElement("li");
-    listItem.textContent = title
+    // listItem.textContent = title
     list.append(listItem)
+    
 
-    const space = document.createElement("br");
+    const space = document.createElement("p");
     space.textContent = title
     listItem.append(space)
 
@@ -22,12 +23,23 @@ myForm.addEventListener("submit",(event) => {
     edit.textContent = "edit"
     listItem.append(edit)
 
-    edit.addEventListener("change", (event) => {
-        if(addEventListener){
-            edit.textContent = ""
-        }
 
-        console.log("clicked")
+//Edit and save feature in progress
+    edit.addEventListener("click", (event) => {
+    const editInput = document.createElement("input")
+        listItem.append(editInput)
+        editInput.value = space.textContent
+
+        const submitBtn = document.createElement("button")
+        submitBtn.textContent = "Save"
+        listItem.append(submitBtn)
+
+        submitBtn.addEventListener("click", (event) => {
+            space.textContent = editInput.value
+            submitBtn.remove()
+            editInput.remove() 
+        })
+    
     })
 
     const remove = document.createElement("button")
@@ -36,7 +48,8 @@ myForm.addEventListener("submit",(event) => {
     listItem.append(remove)
     
     remove.addEventListener("click", (event) => {
-        listItem.style.display = "none"
+        listItem.remove()
+
     })
 
 

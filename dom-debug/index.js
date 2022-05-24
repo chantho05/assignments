@@ -32,4 +32,3 @@ function createSubItem(e){
     
     return subItem
 }
-// var random = Math.floor(Math.random() * colors.length)
