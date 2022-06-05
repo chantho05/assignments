@@ -1,0 +1,150 @@
+        * {
+            margin: 0;
+        }
+        /* body */
+        
+        body {
+            background-color: #201126;
+        }
+        /* Top text */
+        
+        #header {
+            color: #89A2C0;
+        }
+        /* Nav */
+        
+        #nav {
+            height: 50px;
+            border: 1px solid black;
+            background-color: #89A2C0;
+        }
+        
+        #nav ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            list-style-type: none;
+            margin-top: 15px;
+        }
+        
+        #nav a {
+            color: black;
+            text-decoration: none;
+        }
+        /* Image */
+        
+        #background-image>.image {
+            width: 100%;
+        }
+        /* columns */
+        
+        #columns {
+            background-color: white;
+            height: 250px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        
+        #columns> :nth-child(1) {
+            width: 100%;
+            border: 3px solid black;
+            padding: 10px 5px 10px 5px;
+            overflow: scroll;
+        }
+        
+        #columns> :nth-child(2) {
+            width: 100%;
+            border: 3px solid black;
+        }
+        
+        #columns> :nth-child(3) {
+            width: 100%;
+            border: 3px solid black;
+        }
+        
+        .projects img {
+            width: 50px;
+            height: 50px;
+        }
+        /* Reviews */
+        
+        #reviews div {
+            display: inline;
+        }
+        
+        #reviews>:nth-child(1) {
+            color: #ABBFD8;
+            text-align: center;
+            margin-top: 50px;
+        }
+        
+        #reviews> :nth-child(2) {
+            color: #ABBFD8;
+            width: 250px;
+        }
+        
+        #reviews> :nth-child(3) {
+            color: #ABBFD8;
+            width: 250px;
+            margin-top: 50px;
+        }
+        
+        #reviews> :nth-child(4) {
+            color: #ABBFD8;
+            width: 250px;
+        }
+        /* Footer */
+        
+        #footer {
+            background-color: #89A2C0;
+            text-align: center;
+        }
+        
+        @media only screen and (max-width: 768px) {
+            body {
+                background-color: white;
+            }
+            #columns {
+                background-color: white;
+                height: 250px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+            }
+            #columns> :nth-child(1) {
+                width: 100%;
+                border: 3px solid white;
+                padding: 10px 5px 10px 5px;
+                overflow: scroll;
+            }
+            #columns> :nth-child(2) {
+                width: 100%;
+                border: 3px solid white;
+            }
+            #columns> :nth-child(3) {
+                width: 100%;
+                border: 3px solid white;
+            }
+            #reviews {
+                text-align: center;
+            }
+            #reviews>:nth-child(1) {
+                color: #ABBFD8;
+                text-align: center;
+                margin-top: 50px;
+            }
+            #reviews> :nth-child(2) {
+                color: #ABBFD8;
+                width: 250px;
+            }
+            #reviews> :nth-child(3) {
+                color: #ABBFD8;
+                width: 250px;
+                margin-top: 50px;
+            }
+            #reviews> :nth-child(4) {
+                color: #ABBFD8;
+                width: 250px;
+            }
+        }
