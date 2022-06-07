@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(244, 233, 244);
+}
+
+.add {
+    background-color: aqua;
+}
+
+.add>input {
+    border: 3px black solid;
+    padding: 5px 5px 5px 5px;
+    width: 50px;
+}
+
+.subtract {
+    background-color: aliceblue;
+}
+
+.subtract>input {
+    border: 3px black solid;
+    padding: 5px 5px 5px 5px;
+    margin-top: 10px;
+    width: 50px;
+}
+
+.multiply {
+    background-color: antiquewhite;
+}
+
+.multiply>input {
+    border: 3px black solid;
+    padding: 5px 5px 5px 5px;
+    margin-top: 10px;
+    width: 50px;
+}
+
+button {
+    margin-top: 15px;
+    border-radius: 10px;
+    display: flex;
+}
