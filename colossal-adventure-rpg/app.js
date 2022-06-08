@@ -5,6 +5,8 @@ const playerName = readLine.question("What is your name? ")
 
 console.log("Greetings and thank you for attending! " + playerName + " The day is quiet, it is raining outside and their is no sunlight in sight. The hair stands up on the back of your neck as you know today is going to change your life forever...but....why...")
 
+// `${playerName}`
+
 
 const playerObject = {
     name: playerName,

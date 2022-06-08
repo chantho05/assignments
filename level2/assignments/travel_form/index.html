@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <form name="travel_form">
+            <h1>Travel Information</h1>
+            <div class="text">
+                <input type="text" placeholder="First Name" name="firstName">
+                <br><input type="text" placeholder="Last Name" name="lastName">
+                <br><input type="text" placeholder="Age" name="age">
+            </div>
+            <div class="selection">
+                <br> <input type="radio" value="Male" name="gender">Male <input type="radio" value="Female" name="gender"> Female <input type="radio" value="Other" name="gender">Other
+            </div>
+            <div class="locations">
+                <br>
+                <select name="location">
+            <option value="India">India</option>
+            <option value="California">California</option>
+            <option value="Florida">Florida</option>
+        </select>
+
+            </div>
+            <br>
+            <div class="checked">
+                Food allergies:
+                <input type="checkbox" value="vegan" name="restrictions"> Vegan
+                <input type="checkbox" value="Vegetarian" name="restrictions"> Vegetarian
+                <input type="checkbox" value="none" name="restrictions">None
+            </div>
+            <br>
+            <button>Submit</button>
+        </form>
+    </div>
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
