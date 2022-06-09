@@ -59,39 +59,6 @@ console.log(fullNames)
 
 // 5) Make an array of strings of the names saying whether
 //  or not they can go to The Matrix
-
-
-const makeStrings = ([{
-        name: "Angelina Jolie",
-        age: 80
-    },
-    {
-        name: "Eric Jones",
-        age: 2
-    },
-    {
-        name: "Paris Hilton",
-        age: 5
-    },
-    {
-        name: "Kayne West",
-        age: 16
-    },
-    {
-        name: "Bob Ziroll",
-        age: 100
-    }
-]);
-
-const allowed = makeStrings.map(function(permission) {
-    if (permission.age < 18) {
-        return permission.name + " CANNOT see the Matrix!"
-    } else {
-        return permission.name + " CAN go see the Matrix!"
-    }
-})
-console.log(allowed)
-
 // Make an array of the names in h1s, and the ages in h2s
 
 function readyToPutInTheDOM(arr) {
@@ -100,5 +67,8 @@ function readyToPutInTheDOM(arr) {
     });
 }
 
-var resulted = readyToPutInTheDOM([{ name: "Angelina Jolie", age: 80 }, { name: "Eric Jones", age: 2 }, { name: "Paris Hilton", age: 5 }, { name: "Kayne West", age: 16 }, { name: "Bob Ziroll", age: 100 }]);
+var resulted = readyToPutInTheDOM([{ name: "Angelina Jolie", age: 80 },
+    { name: "Eric Jones", age: 2 }, { name: "Paris Hilton", age: 5 },
+    { name: "Kayne West", age: 16 }, { name: "Bob Ziroll", age: 100 }
+]);
 console.log(resulted);
