@@ -11,4 +11,4 @@ const pageClicked = () => {
 }
 
 window.addEventListener("click", pageClicked);
-localStorage.clear(num)
+localStorage.clear()
