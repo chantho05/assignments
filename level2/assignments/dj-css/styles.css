@@ -1,0 +1,130 @@
+/* use :hover and transition */
+
+#container {
+    border: 5px solid black;
+    height: 1261px;
+    width: 100%;
+    background-color: rgb(109, 204, 245);
+}
+
+#container> :nth-child(1) {
+    background-color: white;
+    border: 5px solid blue;
+    height: 200px;
+    width: 200px;
+}
+
+#container> :nth-child(1):hover {
+    /* transition: initial 1s ease 200ms; */
+    background-color: rgb(178, 178, 188);
+    transition-delay: 200ms;
+    transition-property: initial;
+    transition-timing-function: ease;
+    transition-duration: 2s;
+    width: 50px;
+    border-color: rgb(178, 178, 188);
+}
+
+
+/* ----------------- */
+
+#container> :nth-child(2) {
+    border: 5px solid yellow;
+    height: 200px;
+    width: 200px;
+}
+
+#container> :nth-child(2):hover {
+    background-color: rgb(108, 108, 219);
+    transition-delay: 200ms;
+    transition-property: initial;
+    transition-timing-function: linear;
+    transition-duration: 1s;
+    height: 70px;
+    border-radius: 100px;
+    border-color: rgb(108, 108, 219);
+    ;
+}
+
+
+/* ----------------- */
+
+#container> :nth-child(3) {
+    background-color: white;
+    border: 5px solid green;
+    height: 200px;
+    width: 200px;
+}
+
+#container> :nth-child(3):hover {
+    background-color: rgb(14, 14, 169);
+    transition-delay: 200ms;
+    transition-property: initial;
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+    width: 400px;
+    height: 400px;
+    box-shadow: 15px 7px 7px red;
+    border-color: rgb(14, 14, 169);
+}
+
+
+/* ----------------- */
+
+#container> :nth-child(4) {
+    border: 5px solid red;
+    height: 200px;
+    width: 200px;
+}
+
+#container> :nth-child(4):hover {
+    box-shadow: inset 0 0 0 25px firebrick;
+    background: linear-gradient(#e66465, #9198e5);
+    transition-delay: 200ms;
+    transition-property: initial;
+    transition-timing-function: ease;
+    transition-duration: 1.5s;
+    border-color: firebrick;
+}
+
+
+/* ----------------- */
+
+#container> :nth-child(5) {
+    background-color: white;
+    border: 5px solid yellowgreen;
+    height: 200px;
+    width: 200px;
+}
+
+#container> :nth-child(5):hover {
+    /* -webkit-transform: rotateZ(-30deg);
+    -ms-transform: rotateZ(-30deg); */
+    transform: rotateZ(-50deg);
+    background-color: rgb(10, 10, 74);
+    transition-delay: 200ms;
+    transition-property: initial;
+    transition-timing-function: ease;
+    transition-duration: 1s;
+    border-width: 30px;
+    border-color: rgb(10, 10, 74);
+}
+
+
+/* ----------------- */
+
+#container> :nth-child(6) {
+    border: 5px solid rgb(51, 67, 12);
+    height: 200px;
+    width: 200px;
+}
+
+#container> :nth-child(6):hover {
+    background: linear-gradient(black, white);
+    transition-delay: 200ms;
+    transition-property: initial;
+    transition-timing-function: ease;
+    transition-duration: 3s;
+    width: 50%;
+    opacity: 0.1;
+}
