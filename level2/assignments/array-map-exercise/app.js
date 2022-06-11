@@ -3,9 +3,7 @@
 
 const doubleNumbers = ([2, 5, 100]);
 
-const result = doubleNumbers.map(function(num) {
-    return num * 2
-})
+const result = doubleNumbers.map((num) => num * 2)
 console.log(result)
 
 // 2) Take an array of numbers and make them strings

@@ -56,10 +56,10 @@ console.log(peopleWhoBelongToTheIlluminati([
 // to see The Matrix (older than 18)
 
 function ofAge(arr) {
-    let oldEnough = persons.filter((person) => person.age >= 18)
-    console.log(oldEnough)
+    return arr.filter((oldEnough) => oldEnough.age > 18)
 }
-// test
+
+
 console.log(ofAge([
     { name: "Angelina Jolie", age: 80 },
     { name: "Eric Jones", age: 2 },
@@ -67,6 +67,6 @@ console.log(ofAge([
     { name: "Kayne West", age: 16 },
     { name: "Bob Ziroll", age: 100 }
 ]));
-//   // =>
-//   //[ { name: 'Angelina Jolie', age: 80 },
-//   //  { name: 'Bob Ziroll', age: 100 } ]
+// =>
+//[ { name: 'Angelina Jolie', age: 80 },
+//  { name: 'Bob Ziroll', age: 100 } ]
