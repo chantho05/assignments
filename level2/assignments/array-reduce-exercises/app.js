@@ -99,6 +99,17 @@ var voters = [
 
 function voterResults(arr) {
     return arr.reduce(function(final, filtered) {
+
+        /*
+
+        if (filtered.age >= 18 && filtered.age <= 25) { 
+            final.numYoungPeople++
+            if (filtered.voted===true) { 
+                final.numYoungVoters++
+            }
+        }
+        
+         */
         if (filtered.voted == true) {
             if (filtered.age > 18 && filtered.age <= 25) {
                 final.numYoungVotes++
