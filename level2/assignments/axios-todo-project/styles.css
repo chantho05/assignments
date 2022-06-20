@@ -1,0 +1,94 @@
+* {
+    margin: 5px;
+    padding: 5px;
+}
+
+body {
+    background-color: rgb(185, 201, 216);
+}
+
+input {
+    box-shadow: 5px 9px;
+}
+
+input:hover {
+    background-color: rgb(223, 229, 234);
+    transition: 1s;
+}
+
+input:active {
+    transform: scale(1.10);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+h1 {
+    text-shadow: 5px 0px 20px;
+    letter-spacing: 10px;
+}
+
+form {
+    /* border: 1px rgb(236, 124, 124) solid; */
+    box-shadow: 10px 0px 20px 10px;
+}
+
+form button:active {
+    transform: scale(0.98);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    /* Lowering the shadow */
+}
+
+form button {
+    background-color: white;
+}
+
+form button:hover {
+    background-color: rgb(193, 189, 189);
+}
+
+div {
+    /* border: 1px black solid; */
+    text-align: center;
+    box-shadow: 10px 0px 20px 5px;
+}
+
+
+/* .checkbox {
+    background-color: rgb(173, 230, 185);
+    margin-right: 5px;
+    box-shadow: 10px 10px;
+    transition: 1s;
+} */
+
+
+/* .checkbox:active {
+    transform: scale(2.80);
+    /* Scaling button to 0.98 to its original size */
+
+
+/* box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24); */
+
+
+/* Lowering the shadow */
+
+
+/* } */
+
+.removeBtn {
+    background-color: rgb(123, 123, 209);
+    margin-left: 10px;
+    box-shadow: 10px 10px;
+    transition: 1s;
+}
+
+.removeBtn:active {
+    transform: scale(0.98);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    /* Lowering the shadow */
+}
+
+.removeBtn:hover {
+    background-color: aliceblue;
+}

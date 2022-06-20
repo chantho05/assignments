@@ -1,0 +1,61 @@
+{
+    "appetizers": [{
+            "name": "Fried Zucchini",
+            "ingredients": ["Zucchini", "breading", "olive oil"],
+            "description": "The savory flavours of each crisp snap will have your taste buds exploring"
+
+        },
+        {
+            "name": "Chicken Wings",
+            "ingredients": ["Chicken Wings", "Flour", " House Seasoning"],
+            "description": "Chicken wings fried to perfection"
+        }
+    ],
+
+    "cold sandwhiches": [{
+            "name": "Cold Cut-Combo",
+            "ingredients": ["Lettuce", "Tomato", "Ham", "Cheese", "Roast Beef", "Mayo"],
+            "description": "Cold sandwhich that will leave you feeling, O so YUMMY!"
+        },
+        {
+            "name": "Grinder",
+            "ingredients": ["Shredded-Lettuce", "Tomato", "Ham", "PepperJack Cheese", "Pepperoni", "Mayo", "Vinegar"],
+            "description": "Ol fasioned Grinder that will always satisfy you!"
+        }
+    ],
+
+    "Hot sandwhiches": [{
+            "name": "Meatball-Sub",
+            "ingredients": ["Meatballs", "Marinara", "Shredded Cheese"],
+            "description": "Homemade meatballs always made fresh"
+        },
+        {
+            "name": "Roasted Italian",
+            "ingredients": ["Lettuce", "Tomato", "Pepperoni", "Italian Ham", "Salami", "Mayo", "Vinegar"],
+            "description": "An oven baked sandwhich that will leave you wanting more"
+        }
+    ],
+
+    "Desserts": [{
+            "name": "Fudge Sunday",
+            "ingredients": ["Brownie", "Chocolate", "Vanilla Ice Cream", "Caramel"],
+            "description": "So delicious that the chocolate will melt faster than the ice cream"
+        },
+        {
+            "name": "Banana Split",
+            "ingredients": ["banana", "Chocolate", "Whipped Cream", "Peanuts", "Neapolitan Ice Cream"],
+            "description": "Anyones paradise in a dessert"
+        }
+    ],
+    "Drinks": [{
+            "name": "Thai Tea",
+            "ingredients": ["Milk", "Sugar", "Condensed Milk"],
+            "description": "A delicious drink native to thailand "
+        },
+        {
+            "name": "Coke",
+            "ingredients": ["Sugar", "Syrup", "More Sugar"],
+            "description": "Very addictive and yet satisfying"
+        }
+    ]
+}
