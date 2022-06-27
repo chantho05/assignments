@@ -19,6 +19,21 @@ export default[
         subTitle: "Many say exploration is part of our destiny, but it’s actually our duty to future generations.",
         author: "Start Bootstrap",
         date: "July 8, 2019"
+    },{
+        title: "Failure is not an option",
+        subTitle: "Many say exploration is part of our destiny, but it’s actually our duty to future generations.",
+        author: "Start Bootstrap",
+        date: "July 8, 2019"
+    },{
+        title: "Failure is not an option",
+        subTitle: "Many say exploration is part of our destiny, but it’s actually our duty to future generations.",
+        author: "Start Bootstrap",
+        date: "July 8, 2019"
+    },{
+        title: "Failure is not an option",
+        subTitle: "Many say exploration is part of our destiny, but it’s actually our duty to future generations.",
+        author: "Start Bootstrap",
+        date: "July 8, 2019"
     }
 ]
 

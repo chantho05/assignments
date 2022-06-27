@@ -1,0 +1,28 @@
+body {
+    padding: 0;
+    margin: 0
+}
+
+.main {
+    height: 500px;
+    display: inline-flex;
+}
+
+.main--cardContainer {
+    /* border: 1px solid black;
+    border-radius: 9px;
+    height: 300px;
+    width: 250px; */
+    margin: 25px;
+}
+
+
+/* .main--card {
+    display: inline-flex;
+} */
+
+.main--cardImage {
+    height: 300px;
+    width: 250px;
+    border-radius: 50px;
+}
