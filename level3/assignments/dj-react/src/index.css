@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    display: grid;
+    column-gap: 10px;
+    row-gap: 10px;
+    height: 750px;
+}
+
+.container--one {
+    border: 2px solid black;
+    grid-column: 1 / 2;
+    border-radius: 10px;
+}
+
+.container--two {
+    border: 2px solid black;
+    grid-column: 2/ 3;
+    border-radius: 10px;
+}
+
+.container--three {
+    border: 2px solid black;
+    grid-column: 1 / 2;
+    grid-row: 2;
+    border-radius: 10px;
+}
+
+.container--four {
+    border: 2px solid black;
+    grid-column: 2 / 3;
+    border-radius: 10px;
+}
+
+.container--buttons {
+    margin-top: 20px;
+    display: flex;
+}
