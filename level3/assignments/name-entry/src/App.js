@@ -25,7 +25,7 @@ export default function App() {
 
 
   return (
-    <form> 
+    <form> c
       <input 
       name="firstName"
       type="text"
@@ -39,10 +39,6 @@ export default function App() {
     <ul>
       <h1>{nameAddition}</h1>
     </ul>
-
-  
-
-
 
     </form>
   );
