@@ -1,0 +1,14 @@
+body {
+    background-color: gainsboro;
+}
+
+.main--container {
+    border: 3px solid black;
+    height: 250px;
+}
+
+
+/* .form--about {
+  
+    display: ;
+} */
