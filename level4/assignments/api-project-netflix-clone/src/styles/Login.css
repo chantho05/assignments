@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+
+.login--background {
+    /* object-fit: contain; */
+    background-size: cover;
+    width: 100%;
+    height: 55%;
+    position: absolute;
+    filter: brightness(50%);
+}
+
+
+/* .login--form {
+    text-align: center;
+} */
+
+.login--formContainer {
+    position: relative;
+    text-align: center;
+}
+
+.form--text {
+    /* display: block; */
+    margin-top: 15rem;
+    height: 2rem;
+}
+
+.form--password {
+    display: block;
+}
+
+.form--submit {
+    color: white;
+    background-color: #e50914;
+    height: 2.5rem;
+}
+
+.login--lower {
+    height: 5px;
+    background-color: rgb(85, 83, 83);
+    position: relative;
+    margin-top: 220px;
+}
