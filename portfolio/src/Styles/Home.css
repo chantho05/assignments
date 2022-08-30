@@ -1,0 +1,151 @@
+.home--container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 10%;
+    min-height: fit-content;
+    background-image: url("/home/chantho05/Development/assignments/portfolio/src/assets/fonts/bg.jpg");
+}
+
+.home--parent {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.home--details--name {
+    font-size: 24px;
+    font-family: "Poppins SemiBold";
+}
+
+.home--details--role {
+    display: flex;
+    flex-direction: column;
+    margin: 14px 0 24px 0;
+}
+
+.home--details--role h1 {
+    font-size: 40px;
+    font-family: italic;
+}
+
+.home--text {
+    color: (--white);
+}
+
+.highlighted--text {
+    color: var(--dark-orange);
+}
+
+.home--role--tagline {
+    font-size: 19px;
+    margin: 5px 0 0 0;
+    font-family: "Poppins Light";
+}
+
+.home--options .highlighted--btn {
+    margin: 0 0 0 28px;
+}
+
+.home--options .highlighted--btn:hover {
+    margin: 0 0 0 28px;
+    background-color: cornsilk;
+    color: #111;
+}
+
+.home--picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 0px 0px var(--white);
+    border-radius: 50%;
+    height: 380px;
+    width: 380px;
+    margin: 0 0px 0 100px;
+}
+
+.home--picture--background {
+    height: 92%;
+    width: 92%;
+    background-image: url("../assets/fonts/profileImage.jpg");
+    background-size: cover;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.home--picture--background:hover {
+    transform: scale(1.07);
+    transition: 1s ease-out;
+}
+
+.colz .colz--icon {
+    color: white;
+    padding: 8px;
+    padding-left: 0px;
+}
+
+.colz--icon i {
+    margin-left: 10px;
+}
+
+.colz .colz--icon i:hover {
+    transform: scale(1.5);
+}
+
+@media screen and (max-width: 1110px) {
+    .home--picture {
+        margin: 0 0px 0 80px;
+    }
+    .home--details--name {
+        font-size: 20px;
+    }
+    .home--details--role .primary--text {
+        font-size: 12px;
+    }
+    .home--options .btn {
+        width: 120px;
+        padding: 11px 0;
+        z-index: 700;
+    }
+}
+
+@media screen and (max-width: 910px) {
+    .home-picture {
+        height: 320px;
+        width: 320px;
+        margin: 0 0 0 4px;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .home--picture {
+        margin: 0 !important;
+    }
+    .home--parent {
+        flex-direction: column-reverse;
+        text-align: center;
+        margin: 40px 0 0 0;
+    }
+    .colz--icon {
+        display: flex;
+        justify-content: center;
+    }
+    .colz--icon i {
+        margin-left: 10px;
+    }
+    .home--options {
+        display: flex;
+        justify-content: space-between;
+    }
+    .home--details {
+        margin: 25px 0 0;
+    }
+    .home--options .highlighted--btn {
+        margin: 0 !important;
+    }
+    .home--options .home--details--role {
+        text-align: center;
+    }
+}
